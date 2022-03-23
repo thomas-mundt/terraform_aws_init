@@ -41,4 +41,13 @@ terraform {
     path = "local_tf_state/terraform.tfstate"
   }
   
+  //backend "s3" {
+  //  bucket         = "s3backend-bmtbkzdehf47r6-state-bucket"
+  //  key            = "test/aws"
+  //  region         = "eu-central-1"
+  //  encrypt        = true
+  //  role_arn       = "arn:aws:iam::181984622346:role/s3backend-bmtbkzdehf47r6-tf-assume-role"
+  //  dynamodb_table = "s3backend-bmtbkzdehf47r6-state-lock"
+  //}
+  
 }
